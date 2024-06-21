@@ -114,7 +114,7 @@
 
 #### Скриншот Coverage
 
-![ref](./Coverage/coverage.png)
+![ref](./Coverage/Coverage.png)
 
 #### Объём неиспользованного CSS
 

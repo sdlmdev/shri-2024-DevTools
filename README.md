@@ -58,7 +58,7 @@
 
 ### Описание Performance
 
-1. [Записать и сохранить в файл профиль загрузки страницы](./Performance/Trace-20240620T000139.json)
+1. [Записать и сохранить в файл профиль загрузки страницы](./Performance/Trace-20240620T214703.json)
 2. Измерить время в миллисекундах от начала навигации до событий:
    - [First Paint (FP)](#first-paint)
    - [First Contentful Paint (FCP)](#first-contentful-paint)

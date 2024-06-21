@@ -22,7 +22,7 @@
 
 ### Описание Network
 
-1. [Записать и сохранить в HAR архив профиль загрузки ресурсов при открытии страницы](./network/www.rigla.ru.har)
+1. [Записать и сохранить в HAR архив профиль загрузки ресурсов при открытии страницы](./Network/www.rigla.ru.har)
 2. Найти неоптимальные места:
    - [Дублирование ресурсов](#дублирование-ресурсов)
    - [Лишний размер ресурса](#лишний-размер-ресурса)
@@ -32,25 +32,25 @@
 
 #### Дублирование ресурсов
 
-![](./Network/repeatingElements/1.png)
+![ref](./Network/repeatingElements/1.png)
 
-![](./Network/repeatingElements/2.png)
+![ref](./Network/repeatingElements/2.png)
 
-![](./Network/repeatingElements/3.png)
+![ref](./Network/repeatingElements/3.png)
 
 #### Лишний размер ресурса
 
 Неоптимизированные изображения
 
-![](./Network/extraSize/images.png)
+![ref](./Network/extraSize/images.png)
 
 #### Медленно загружающиеся ресурсы
 
-![](./Network/slowLoading/slow.png)
+![ref](./Network/slowLoading/slow.png)
 
 #### Ресурсы, блокирующие загрузку
 
-![](./Network/blocking/resources.png)
+![ref](./Network/blocking/resources.png)
 
 ## Performance
 
@@ -58,7 +58,7 @@
 
 ### Описание Performance
 
-1. [Записать и сохранить в файл профиль загрузки страницы](./performance/Trace-20240620T000139.json)
+1. [Записать и сохранить в файл профиль загрузки страницы](./Performance/Trace-20240620T000139.json)
 2. Измерить время в миллисекундах от начала навигации до событий:
    - [First Paint (FP)](#first-paint)
    - [First Contentful Paint (FCP)](#first-contentful-paint)
@@ -72,39 +72,39 @@
 
 Timestamp 896.9 ms
 
-![](./Performance/First-Paint.png)
+![ref](./Performance/First-Paint.png)
 
 #### First Contentful Paint
 
 Timestamp 896.9 ms
 
-![](./Performance/First-Contentful-Paint.png)
+![ref](./Performance/First-Contentful-Paint.png)
 
 #### Largest Contentful Paint
 
 Timestamp 1930.3 ms
 
-![](./Performance/Largest-Contentful-Paint.png)
+![ref](./Performance/Largest-Contentful-Paint.png)
 
 #### DOM Content Loaded
 
 Timestamp 472.9 ms
 
-![](./Performance/DOMContentLoaded.png)
+![ref](./Performance/DOMContentLoaded.png)
 
 #### Load
 
 Timestamp 22324.6 ms
 
-![](./Performance/Load.png)
+![ref](./Performance/Load.png)
 
 #### DOM-элемент LCP
 
-![](./Performance/DOM-elem-LCP.png)
+![ref](./Performance/DOM-elem-LCP.png)
 
 #### Время на разные этапы обработки документа
 
-![](./Performance/Time.png)
+![ref](./Performance/Time.png)
 
 ## Coverage
 
@@ -118,17 +118,16 @@ Timestamp 22324.6 ms
 
 #### Скриншот Coverage
 
-![](./Coverage/Coverage.png)
+![ref](./Coverage/Coverage.png)
 
 #### Объём неиспользованного CSS
 
 ~45,4 Кб
 
-![](./Coverage/CSS_unused.png)
+![ref](./Coverage/CSS_unused.png)
 
 #### Объём неиспользованного JS
 
 ~3600 Кб
 
-![](./Coverage/JS_unused.png)
-
+![ref](./Coverage/JS_unused.png)
